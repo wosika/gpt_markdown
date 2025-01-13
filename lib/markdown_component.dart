@@ -2,7 +2,7 @@ part of 'gpt_markdown.dart';
 
 /// Markdown components
 abstract class MarkdownComponent {
-  static List<MarkdownComponent> get components => [
+  static List<MarkdownComponent>  components  = [
         CodeBlockMd(),
         NewLines(),
         IndentMd(),
